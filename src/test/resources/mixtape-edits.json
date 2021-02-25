@@ -1,0 +1,93 @@
+{
+  "edits": [
+    {
+      "targetType": "playlist",
+      "targetId": -1,
+      "editActions": [
+        {
+          "actionType": "add",
+          "value": "{\"user_id\":3,\"song_ids\":[10,13],\"id\":202}"
+        }
+      ]
+    },
+    {
+      "targetType": "playlist",
+      "targetId": 1,
+      "editActions": [
+        {
+          "actionType": "delete"
+        }
+      ]
+    },
+    {
+      "targetType": "playlist",
+      "targetId": 2,
+      "editActions": [
+        {
+          "actionType": "set_field",
+          "fieldName": "song_ids",
+          "value": "-7,2"
+        },
+        {
+          "actionType": "set_field",
+          "fieldName": "song_ids",
+          "value": "+1,6"
+        }
+      ]
+    },
+    {
+      "targetType": "playlist",
+      "targetId": 2,
+      "editActions": [
+        {
+          "actionType": "delete"
+        }
+      ]
+    },
+    {
+      "targetType": "user",
+      "targetId": 1,
+      "editActions": [
+        {
+          "actionType": "set_field",
+          "fieldName": "name",
+          "value": "test edited name"
+        }
+      ]
+    },
+    {
+      "targetType": "user",
+      "targetId": 2,
+      "editActions": [
+        {
+          "actionType": "delete"
+        }
+      ]
+    },
+    {
+      "targetType": "song",
+      "targetId": 1,
+      "editActions": [
+        {
+          "actionType": "delete"
+        }
+      ]
+    },
+    {
+      "targetType": "song",
+      "targetId": 2,
+      "editActions": [
+        {
+          "actionType": "set_field",
+          "fieldName": "title",
+          "value": "New Song title"
+        },
+        {
+          "actionType": "set_field",
+          "fieldName": "artist",
+          "value": "New test artist"
+        }
+      ]
+    }
+  ]
+}
